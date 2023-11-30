@@ -16,7 +16,7 @@ Uppgiften utfördes mellan 29/11 och 10/12 2023, och bestod i att skapa en webbp
 - Använda **bilder**[^2].
 - Enbart ha **EN** CSS-fil.
 
-Kraven för att få Väl Godkänt var att:
+## Kraven för att få Väl Godkänt var att:
 - Utföra ovannämnda kriterier.
 - Använda sig av BEM som namnstandard konsekvent över alla sidor i projektet.
 
