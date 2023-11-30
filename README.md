@@ -3,12 +3,12 @@
 Uppgiften utfördes mellan 29/11 och 10/12 2023, och bestod i att skapa en webbplats åt ett fiktivt hotell, *Bonz.AI*, som erbjuder en AI-driven eko vistelse.
 
 
-##Projektet skulle innehålla: 
+## Projektet skulle innehålla: 
 - En landningssida (startsida).
 - En sida om hotellet och dess faciliteter.
 - En bokningssida för att söka och boka rum[^1].
 
-##Kraven för att få Godkänt var att: 
+## Kraven för att få Godkänt var att: 
 
 - Hemsidan ska vara responsiv, d.v.s fungera både i dekstop och mobilt läge.
 - Använda sig av **semantisk HTML**.
@@ -16,7 +16,7 @@ Uppgiften utfördes mellan 29/11 och 10/12 2023, och bestod i att skapa en webbp
 - Använda **bilder**[^2].
 - Enbart ha **EN** CSS-fil.
 
-Kraven för att få Väl Godkänt var att:
+## Kraven för att få Väl Godkänt var att:
 - Utföra ovannämnda kriterier.
 - Använda sig av BEM som namnstandard konsekvent över alla sidor i projektet.
 
