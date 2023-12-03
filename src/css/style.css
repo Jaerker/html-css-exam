@@ -36,7 +36,7 @@ html {
 
 .nav {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto 600px;
     width: 90%;
     margin: 2rem auto;
     z-index: 2;
@@ -114,7 +114,6 @@ html {
 }
 
 .hero__header {
-
     font-size: 4rem;
     margin-bottom: 5rem;
 }
@@ -154,19 +153,28 @@ html {
     object-fit: cover;
     z-index: -10;
 }
-.text-and-image__row {
+.text-and-image__row,
+.text-and-image__column {
+    max-width:1000px;
     display: grid;
-    grid-template-columns: 44vw 44vw;
     justify-content: center;
-    gap: 6vw;
+    column-gap: 5vw;
+    margin:auto;
+}
+.text-and-image__row{
+    grid-template-columns: 50% 50%;
+
 }
 
-.text-and-image__column {}
+.text-and-image__column {
+
+
+}
 
 .text-and-image__content-section {}
 
 .text-and-image__image-section img{
-    width:44vw;
+    width:100%;
     height:auto;
 }
 
