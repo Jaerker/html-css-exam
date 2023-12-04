@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Nova+Square&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 :root {
     --white: rgb(255, 255, 255, 1);
@@ -12,6 +12,9 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration:none;
+    color:var(--black);
+
 }
 
 html {
@@ -34,6 +37,7 @@ html {
 
 }
 
+
 .nav {
     display: grid;
     grid-template-columns: auto 600px;
@@ -49,13 +53,16 @@ html {
     width: 100px;
     height: 100px;
     background-image: var(--white-logo);
-    transition: all .25s;
+    transition: all .4s;
     background-size: contain;
 }
 
 .header:hover .nav__brand-logo {
     background-image: var(--black-logo);
+    transform:rotate(45deg) scale(1.4);
+
 }
+
 
 .nav__menu {
     list-style: none;
@@ -91,7 +98,7 @@ html {
 .main {
     display:flex;
     flex-direction:column;
-    row-gap: 6vh;
+    row-gap: 15vh;
 }
 
 .hero {
@@ -114,11 +121,14 @@ html {
 }
 
 .hero__header {
+    color:inherit;
     font-size: 4rem;
     margin-bottom: 5rem;
 }
 
 .hero__sub-header {
+    color:inherit;
+
     font-size: 2.2rem;
     width: 32rem;
     line-height: 4rem;
@@ -171,11 +181,32 @@ html {
 
 }
 
-.text-and-image__content-section {}
+.text-and-image__content-section {
+    padding:2rem;
 
+    font-family: 'Oswald', sans-serif;
+    font-weight:300;
+    font-size:2rem;
+}
+
+.text-and-image__content-section a {
+    display:block;
+    font-weight:400;
+    text-align: center;
+    padding:2rem;
+    transition: all 0.25s;
+}
+.text-and-image__content-section a:hover {
+    color:blueviolet;
+    transform:scale(1.1);
+}
 .text-and-image__image-section img{
     width:100%;
     height:auto;
+    transition: all 0.5s;
+}
+.text-and-image__image-section img:hover{
+    transform:scale(1.2);
 }
 
 .footer {}
