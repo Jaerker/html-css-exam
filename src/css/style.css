@@ -6,10 +6,21 @@
 	--black: rgb(0, 0, 0, 1);
 
 	--primary-color: rgb(152, 242, 215, 1);
-	--white-logo: url("../img/logo/bonz.ai-logo-white-symbol.png");
-	--black-logo: url("../img/logo/bonz.ai-logo-black-symbol.png");
-	--color-logo-landscape: url("../img/logo/bonz.ai-logo-color-landscape.png");
 
+	--logo-white: url("../img/logo/bonz.ai-logo-white-symbol.png");
+	--logo-black: url("../img/logo/bonz.ai-logo-black-symbol.png");
+	--logo-color: url("../img/logo/bonz.ai-logo-color-symbol.png")
+	--logo-landscape-white: url("../img/logo/bonz.ai-logo-white-landscape.png");
+	--logo-landscape-black: url("../img/logo/bonz.ai-logo-black-landscape.png");
+	--logo-landscape-color: url("../img/logo/bonz.ai-logo-color-landscape.png");
+	--logo-portrait-white: url("../img/logo/bonz.ai-logo-white-portrait.png");
+	--logo-portrait-black: url("../img/logo/bonz.ai-logo-black-portrait.png");
+	--logo-portrait-color: url("../img/logo/bonz.ai-logo-color-portrait.png");
+	--logo-portrait-full-white: url("../img/logo/bonz.ai-logo-white-portrait-full.png");
+	--logo-portrait-full-black: url("../img/logo/bonz.ai-logo-black-portrait-full.png");
+	--logo-portrait-full-color: url("../img/logo/bonz.ai-logo-color-portrait-full.png");
+
+	
 	--regular-content-img: url("../img/photos/02-day.jpg");
 	--hovering-content-img: url("../img/photos/02-night.jpg");
 }
