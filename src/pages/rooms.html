@@ -13,7 +13,7 @@
 
     <!-- HEADER -->
 
-    <header class="header" id="header">
+    <header class="header header--scrolled-up" id="header">
         <nav class="nav">
             <a href="../../index.html">
                 <figure class="nav__brand-logo"></figure>
@@ -34,12 +34,13 @@
 
     <!-- MAIN -->
 
-    <main class="main">
+    <main class="main" id="main">
         <section class="main__rooms-background"></section>
 
         <section class="main__rooms-section rooms-section">
 
             <section class="rooms-section__container">
+                
                 <article class="room">
                   <section class="room__image">
                     <img src="../img/photos/01-day.jpg" alt="Bild på stuga 1">
@@ -48,12 +49,74 @@
                     <h2 class="room__header">Ensliga stugan</h2>
                     <h3 class="room__price">2,500kr/dag</h3>
                     <section class="room__information">
-                        <h4>I priset ingår:</h4>
+                        <h4 class="room__information-header">I priset ingår:</h4>
+                        <ul class="room__info-list">
+                            <li class="room__info-list-item">Frukost</li>
+                            <li class="room__info-list-item">Tillgång till kajak</li>
+                            <li class="room__info-list-item">En ledsen avokado</li>
+                        </ul>
                     </section>
-                    <button class="room__accept-button">Gå vidare</button>
+                    <a class="room__accept-button">GÅ VIDARE</a>
                   </section>
                 </article>
 
+                <article class="room">
+                    <section class="room__image">
+                      <img src="../img/photos/04-day.jpg" alt="Bild på stuga 1">
+                    </section>  
+                    <section class="room__details">
+                      <h2 class="room__header">Inte så ensliga stugan</h2>
+                      <h3 class="room__price">2,300kr/dag</h3>
+                      <section class="room__information">
+                          <h4 class="room__information-header">I priset ingår:</h4>
+                          <ul class="room__info-list">
+                              <li class="room__info-list-item">Frukost</li>
+                              <li class="room__info-list-item">Inte kajak i alla fall!</li>
+                              <li class="room__info-list-item">En färgblind calypso</li>
+                          </ul>
+                      </section>
+                      <a class="room__accept-button">GÅ VIDARE</a>
+                    </section>
+                  </article>
+
+                  <article class="room">
+                    <section class="room__image">
+                      <img src="../img/photos/08-day.jpg" alt="Bild på stuga 1">
+                    </section>  
+                    <section class="room__details">
+                      <h2 class="room__header">Sjö stugan</h2>
+                      <h3 class="room__price">3,500kr/dag</h3>
+                      <section class="room__information">
+                          <h4 class="room__information-header">I priset ingår:</h4>
+                          <ul class="room__info-list">
+                              <li class="room__info-list-item">Frukost</li>
+                              <li class="room__info-list-item">Sjukt nära till en sjö</li>
+                              <li class="room__info-list-item">Såg du sjön?</li>
+                          </ul>
+                      </section>
+                      <a class="room__accept-button">GÅ VIDARE</a>
+                    </section>
+                  </article>
+
+                  <article class="room">
+                    <section class="room__image">
+                      <img src="../img/photos/06-night.jpg" alt="Bild på stuga 1">
+                    </section>  
+                    <section class="room__details">
+                      <h2 class="room__header">Havsstugan</h2>
+                      <h3 class="room__price">5,500kr/dag</h3>
+                      <section class="room__information">
+                          <h4 class="room__information-header">I priset ingår:</h4>
+                          <ul class="room__info-list">
+                              <li class="room__info-list-item">Resa ut i havet</li>
+                              <li class="room__info-list-item">Kalles kaviar</li>
+                              <li class="room__info-list-item">Kanske ett knäckebröd</li>
+                          </ul>
+                      </section>
+                      <a class="room__accept-button">GÅ VIDARE</a>
+                    </section>
+                  </article>
+  
 
             </section>
         </section>
