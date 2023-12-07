@@ -8,7 +8,7 @@
 	--white-less-transparent: rgb(255, 255, 255, .7);
 	--black: rgb(0, 0, 0, 1);
 	--black-transparent: rgb(0, 0, 0, .7);
-	--black-more-transparent: rgb(0, 0, 0, .3);
+	--black-more-transparent: rgb(0, 0, 0, .5);
 	--lightblue-color: rgb(152, 242, 215, 1);
 
 	--background-image: url("../img/photos/pexels-eberhard-grossgasteiger-534164.jpg");
@@ -42,7 +42,6 @@
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
-	list-style: none;
 
 }
 
@@ -326,7 +325,6 @@ a:hover {
 /* Footer */
 .footer {
 	font-family: 'Oswald', sans-serif;
-
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 3rem;
@@ -375,6 +373,8 @@ a:hover {
 
 .footer__company-links-list-item,
 .footer__address-list-item {
+	list-style: none;
+
 	font-weight: 300;
 	padding: .4rem 0;
 }
@@ -564,7 +564,8 @@ a:hover {
 }
 
 /* Main area of pages */
-
+.main__food-drink-section,
+.main__about-section,
 .main__rooms-section,
 .main__booking-section {
 
@@ -660,12 +661,17 @@ a:hover {
 
 .rooms-section__container {
 	font-family: 'Maven Pro', sans-serif;
-
+	margin: 0 2rem;
+	display:flex;
+	flex-flow: wrap;
+	gap:5rem;
+	justify-content: space-evenly;
 }
 
 .room {
-	width: 25vw;
-	height: 35vw;
+	width: 330px;
+	height: 420px;
+
 	border: 1px solid white;
 	background-color: var(--black);
 	overflow: hidden;
@@ -675,12 +681,9 @@ a:hover {
 .room__image {
 	overflow: hidden;
 	height: inherit;
-	/* Magic */
 	display: flex;
 	align-items: center;
-	/* vertical */
 	justify-content: center;
-	/* horizontal */
 	transition: all var(--animation-logo-timer);
 
 }
@@ -697,24 +700,52 @@ a:hover {
 	flex-direction: column;
 	width: inherit;
 	height: inherit;
-	background-color: var(--black-more-transparent);
+	background-color: var(--black);
 	transition: all var(--animation-logo-timer);
 
 }
 
 .room__header {
 	text-align: center;
-	padding:0.5rem 0;
+	padding: 0.5rem 0;
 }
 
 .room__price {
-	margin:0.5rem 0;
-	font-weight:300;
+	text-align: center;
 }
 
-.room__information {}
+.room__information {
+	margin-top:5rem;
+	padding: 2rem;
+}
 
-.room__accept-button {}
+.room__information-header {
+	margin-bottom: 0.3rem;
+}
+
+.room__info-list-item {
+	margin-bottom: 0.2rem;
+}
+
+
+.room__accept-button {
+	font-family: 'Oswald', sans-serif;
+	width: 70%;
+	font-size:1.3rem;
+	margin: auto;
+	text-align: center;
+	cursor: pointer;
+
+	grid-column: span 2;
+	transition: all var(--animation-timer);
+	border-color: rgb(0, 0, 0, 0);
+}
+
+.room__accept-button:hover {
+	background: var(--lightblue-color);
+	color: var(--black);
+	transform: scale(1.05);
+}
 
 .room:hover .room__image {
 
@@ -722,10 +753,35 @@ a:hover {
 }
 
 .room:hover .room__image img {
-	height: 40vw;
+	height: 550px;
 }
 
 .room:hover .room__details {
+	background: var(--black-transparent);
 	padding: 1rem 0;
-	top: -35vw;
+	top: -425px;
+}
+
+/* About */
+
+
+.about__header{
+	margin-left:8rem;
+	font-family:'Maven Pro', sans-serif;
+	font-size:4rem;
+}
+
+.about__sub-header{
+	margin-top:3rem;
+	margin-left:8rem;
+	width:35rem;
+	font-family:'Maven Pro', sans-serif;
+	font-size:2.5rem;
+}
+
+
+
+/* Pages that are not made yet*/
+.main__food-drink-section-header{
+	padding:3rem;
 }
