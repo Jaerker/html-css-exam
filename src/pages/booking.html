@@ -35,22 +35,40 @@
     <!-- MAIN -->
 
     <main class="main" id="main">
-        <sectiion class="main__booking-background"></sectiion>
+        <section class="main__background"></section>
         <section class="main__booking-section">
 
                 <form action="./rooms.html" class="main__booking-form booking-form">
                     <label class="booking-form__sub-section-label-header">Datum</label>
-        
-                    <label for="check-in" class="booking-form__label-header">Incheckning</label>
-                    <label for="check-in" class="booking-form__label-header">Utcheckning</label>
-                    <input type="date" name="check-in" id="check-in" aria-required="true" class="booking-form__date-picker">
-                    <input type="date" name="check-out" id="check-out" aria-required="true" class="booking-form__date-picker">
+                    <section class="booking-form__sub-section">
+                        <label for="check-in" class="booking-form__label-header">Incheckning</label>
+                        <input type="date" name="check-in" id="check-in" aria-required="true" class="booking-form__date-picker">
+                        
+                    </section>
+                    <section class="booking-form__sub-section">
+                        <label for="check-in" class="booking-form__label-header">Utcheckning</label>
+                        <input type="date" name="check-out" id="check-out" aria-required="true" class="booking-form__date-picker">
+                        
+                    </section>
                     
                     <label class="booking-form__sub-section-label-header">Antal gäster</label>
-                    <label for="num-guests-adult" class="booking-form__label-header">Vuxna: </label>
-                    <label for="num-guests-children" class="booking-form__label-header">Barn: </label>
-                    <input type="number" name="num-guests-adult" id="num-guests-adult" class="booking-form__number" value="0">
-                    <input type="number" name="num-guests-children" id="num-guests-children" class="booking-form__number" value="0">
+                    
+                    <section class="booking-form__sub-section ">
+                    <section class="booking-form__sub-section ">
+                        <label for="num-guests-adult" class="booking-form__label-header">Vuxna</label>
+                        <input type="number" name="num-guests-adult" id="num-guests-adult" class="booking-form__number" value="0">
+
+                    </section>
+                        <section class="booking-form__sub-section ">
+                            <label for="num-guests-children" class="booking-form__label-header">Barn</label>
+                            <input type="number" name="num-guests-children" id="num-guests-children" class="booking-form__number" value="0">
+    
+                        </section>
+
+                                        
+                    </section>
+
+
 
                     <label for="type-of-room" class="booking-form__sub-section-label-header">Typ av boende</label>
                     <select name="list-of-rooms" id="type-of-room" class="booking-form__type-of-room">
@@ -63,7 +81,6 @@
                     </datalist>
                     <input type="submit" value="SÖK" class="booking-form__search">
                 </form>
-                <hr>
     
         </section>
 
@@ -90,10 +107,9 @@
             <section class="footer__company-links-section">
                 <h2 class="footer__company-links-header">TA REDA PÅ MER</h2>
                 <ul class="footer__company-links-list">
-                    <li class="footer__company-links-list-item"><a href="">Jobba hos oss?</a></li>
-                    <li class="footer__company-links-list-item"><a href="">Nyhetsflöde</a></li>
-                    <li class="footer__company-links-list-item"><a href="">Super secret admin</a></li>
-                </ul>
+                    <li class="footer__company-links-list-item"><a href="./page-not-found.html">Jobba hos oss?</a></li>
+                    <li class="footer__company-links-list-item"><a href="./page-not-found.html">Nyhetsflöde</a></li>
+                    <li class="footer__company-links-list-item"><a href="./page-not-found.html">Super secret admin</a></li>                </ul>
             </section>
 
         </section>
